@@ -12,6 +12,8 @@ int main(){
         ans = (bit*pow(10,i)+ans);
          n=n>>1;
          i++;
+        //  for as it is we use formula = (ans*10)+digit
+        //for reverse formula = (digit*10^i)+ans
 
     }
     cout<<"Number"<<n<<" in bits is "<<ans<<endl;
